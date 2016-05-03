@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: The Cloud Computing Patterns' Book
+title: Cloud Computing Patterns' Book
 permalink: /book/
 ---
 
