@@ -49,6 +49,8 @@ div.patternstart_icon{
     display:table-cell;
     vertical-align:middle; 
     padding: 10px 15px 0px 0px;
+    width: 115px;
+    background-color: red;
 }
 
 .patternstart_icon p {
