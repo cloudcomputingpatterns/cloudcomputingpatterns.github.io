@@ -1,0 +1,16 @@
+<footer role="contentinfo">
+  <div class="grid">
+    <div class="unit one-third center-on-mobiles">
+      <p>The contents of this website are <br />&copy;&nbsp;{{ site.time | date: '%Y' }} <a href=/copyright/>Cloud Computing Patterns</a></p>
+      <p>The layout is based on the <a href="http://jekyllrb.com">http://jekyllrb.com</a> homepage released under the <a href="https://github.com/jekyll/jekyll/blob/master/LICENSE">MIT License</a>.</p>
+    </div>
+    <div class="unit two-thirds align-right center-on-mobiles">
+      <p>
+        Proudly hosted by
+        <a href="https://github.com">
+          <img src="/img/footer-logo.png" width="100" height="30" alt="GitHub • Social coding">
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>

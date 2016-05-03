@@ -1,0 +1,10 @@
+---
+layout: news_item
+title: "Cloud Computing Patterns Released"
+date: "2016-05-02 02:12:52 +0200"
+author: chrisfeh
+version: 1.0.0
+categories: [release]
+---
+
+Finally, this website gets a redesign. News are not used for now. Leaving it here to be reactivated later.

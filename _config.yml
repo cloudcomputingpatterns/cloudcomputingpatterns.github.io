@@ -1,0 +1,30 @@
+markdown: kramdown
+highlighter: pygments
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ""
+
+google_analytics_id: UA-29566406-1
+google_site_verification: TONBXrbFkb_jcERE6WgjVN_RvPj7Dkr2mDAMssoUhTs
+
+repository: https://github.com/cloudcomputingpatterns/cloudcomputingpatterns.github.io
+
+timezone: Europe/Berlin
+
+collections:
+  docs:
+    output: true
+
+name: Cloud Computing Patterns
+description: Summary of the book "Cloud Computing Patterns" by Springer and related materials.
+url: http://cloudcomputingpatterns.github.io/
+
+twitter:
+  username: ccpatterns
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-avatar
