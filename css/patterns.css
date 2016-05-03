@@ -1,5 +1,4 @@
 span.patternicon {
-    /*background-color:red;*/
     float: left; 
     display: inline-block;
     width: 90px;
@@ -20,7 +19,6 @@ div.afterpatternicon{
 
 div.bookhomepage {
     float: left;
-    /*background-color:red;*/
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
@@ -50,7 +48,6 @@ div.patternstart_icon{
     vertical-align:middle; 
     padding: 10px 15px 0px 0px;
     width: 115px;
-    background-color: red;
 }
 
 .patternstart_icon p {
