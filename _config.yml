@@ -16,7 +16,7 @@ collections:
 
 name: Cloud Computing Patterns
 description: Summary of the book "Cloud Computing Patterns" by Springer and related materials.
-url: http://cloudcomputingpatterns.github.io/
+url: http://cloudcomputingpatterns.github.io
 
 twitter:
   username: ccpatterns
