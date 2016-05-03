@@ -16,10 +16,6 @@ layout: news
     <span class="post-date">
       {{ page.date | date_to_string }}
     </span>
-    <a href="https://github.com/{{ page.author }}" class="post-author">
-      {% avatar {{ page.author}} size=24 %}
-      {{ page.author }}
-    </a>
   </div>
   <div class="post-content">
     {{ content }}
