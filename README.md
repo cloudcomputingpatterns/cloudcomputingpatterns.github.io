@@ -13,5 +13,5 @@ For information about contributing, please contact: <info@cloudcomputingpatterns
 You can preview changes  by running from within the directory:
 
 1. `bundle install`
-2. `bundle exec rake site:preview`
+2. `bundle exec jekyll serve`
 
