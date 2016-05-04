@@ -47,7 +47,9 @@ div.patternstart_icon{
     display:table-cell;
     vertical-align:middle; 
     padding: 10px 15px 0px 0px;
-    width: 115px;
+    width: 15%;
+    max-width: 115px;
+    min-width: 85px;
 }
 
 .patternstart_icon p {
