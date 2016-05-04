@@ -9,8 +9,8 @@
 body {
   font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #000;
-  background-color: #BCBCBC;
-  border-top: 5px solid #fc0;
+  background-color: #868585;
+  border-top: 5px solid #00617F;
   @include box-shadow(inset 0 3px 30px rgba(0,0,0,.3));
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   -webkit-font-feature-settings: "kern" 1;
@@ -86,8 +86,8 @@ nav {
     &.current {
 
       a {
-        background-color: #fc0;
-        color: #222;
+        background-color: #00617F;
+        color: #FFF;
         @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
         text-shadow: 0 1px 0 rgba(255,255,255,.3);
       }
@@ -107,7 +107,7 @@ nav {
     float: left;
     width: 100%;
     background-color: #333;
-    color: #fc0;
+    color: #FFF;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -125,8 +125,8 @@ nav {
   .current {
 
     a {
-      background-color: #fc0;
-      color: #222;
+      background-color: #00617F;
+      color: #FFF;
       @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
       text-shadow: 0 1px 0 rgba(255,255,255,.3);
     }
@@ -420,13 +420,14 @@ aside {
   padding-top: 30px;
 
   h4 {
+    color: #222;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     padding: 0 0 10px 30px;
     margin-left: -30px;
     display: inline-block;
-    border-bottom: 1px solid #c00;
+    border-bottom: 1px solid #00617F;
   }
 
   ul {
@@ -531,9 +532,9 @@ aside {
 .improve {
   padding-top: 25px;
   font-size: 16px;
-  text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
   a {
     color: #FFF;
+    text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
   }
 }
 
@@ -678,11 +679,12 @@ h5 > code,
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 a {
-  color: #fc0;
+  color: #00617F;
   text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0, 76, 144, 0.8);
   @include transition(all .25s);
 
-  &:hover { color: #f90; }
+  &:hover { color: #94b0c9; }
 }
 
 strong { font-weight: 700; }
