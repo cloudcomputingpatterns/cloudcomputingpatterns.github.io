@@ -31,41 +31,31 @@ div.bookhomepage {
     margin: 6px 10px 0px 0px;
 }
 
-div.patternintent {
+p.patternintent {
     background-color: #DEDEDE; 
-    padding: 15px 15px 15px 15px; 
-    margin: 10px 0px 10px 0px; 
+    padding: 10px 10px 10px 10px; 
+    margin: 15px 0px 15px 0px; 
     -moz-border-radius: 10px; 
     border-radius: 10px;
 }
 
-div.patterstart {
-    display:table;
+table.patternstart {
+    background-color: #FFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }
 
-div.patternstart_icon{
-    display:table-cell;
-    vertical-align:middle; 
-    padding: 10px 15px 0px 0px;
+.patternstart td {
+   border: 0;
+   padding: 0px 10px 0px 0px;
+}
+
+.patternstart img {
     width: 15%;
     max-width: 115px;
     min-width: 85px;
-}
-
-.patternstart_icon p {
-    margin: 0px 0px 0px 0px;
-}
-
-.patternstart_icon img {
-    max-width: 100%;
-    width: 100%;
-}
-
-div.patternstart_question {
-    display:table-cell;
-    vertical-align:middle;
-}
-
-.patternstart_question p {
-    margin: 0px 0px 0px 0px;
 }
