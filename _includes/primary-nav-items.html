@@ -1,9 +1,14 @@
 <ul>
   {% assign patterntest = false %}
+
   {% if page.overview %} 			   {% assign patterntest = true %} {% endif %}
-  {% if page.url contains '/patterns_overview/'	%} {% assign patterntest = true %} {% endif %}
-  {% if page.url contains '/static_workload/'	%} {% assign patterntest = true %} {% endif %}
-  {% if page.url contains '/periodic_workload/'	%} {% assign patterntest = true %} {% endif %}
+
+<!-- This test should be changed to check the size of p to be one.-->
+  {% assign p = site.docs | where:"url",page.url | first %}
+  {% if p.url == page.url %}
+    {% assign patterntest = true %}
+  {% endif %}
+
   <li class="{% if patterntest == true %}current{% endif %}">
     <a href="/">Pat<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">terns</span></a>
   </li>
