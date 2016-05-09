@@ -2,10 +2,14 @@
   docs:
   - static_workload
   - periodic_workload
-  - installation
-  - usage
-  - structure
-  - configuration
+  - once_in_a_lifetime_workload
+  - infrastructure_as_a_service
+  - platform_as_a_service
+  - software_as_a_service
+  - public_cloud
+  - private_cloud
+  - community_cloud
+  - hybrid_cloud 
 
 - title: Cloud Offerings
   docs:
