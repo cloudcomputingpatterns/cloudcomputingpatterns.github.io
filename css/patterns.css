@@ -56,6 +56,11 @@ div.patternstart_icon{
     margin: 0px 0px 0px 0px;
 }
 
+.patternstart_icon img {
+    max-width: 100%;
+    width: 100%;
+}
+
 div.patternstart_question {
     display:table-cell;
     vertical-align:middle;
