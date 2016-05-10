@@ -1,26 +1,26 @@
 ---
 layout: docs
-title: TITEL
+title: Software as a Service (SaaS)
 permalink: /software_as_a_service/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /Software_as_a_Service_(SaaS).html
 ---
 
 {: .patternintent}
-INTENT
+Providers share IT resources providing human-usable application software between customers to enable self-service, rapid elasticity, and pay-per-use pricing.
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/software_as_a_service_icon.png" | prepend: site.baseurl }})  | *Question?*
+![TITEL]({{ "/icons/software_as_a_service_icon.png" | prepend: site.baseurl }})  | *How can customers share a provider-supplied software application so that it can be used on-demand with a pay-per-use pricing model?*
 
 ### Context
 
-Context.
+Small and medium enterprises may not have the manpower and know-how to develop custom software applications. Other applications have become commodity and are used by many companies, for example, office suites, collaboration software, or communications software.
 
 ### Solution
 
-Solution.
+A provider offers a complete software application to customers who may use it on-demand via a self-service interface.
  
 ![TITEL]({{ "/sketches/software_as_a_service_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)
+[Distributed Application](/distributed_application/), [Stateful Component](/stateful_component/), [Data Access Component](/data_access_component/), [Shared Component](/shared_component/), [Tenant-isolated Component](/tenant_isolated_component/), [Dedicated Component](/dedicated_component/)
