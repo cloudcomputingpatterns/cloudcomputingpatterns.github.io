@@ -24,5 +24,4 @@ Cloud computing properties are enabled in a company-internal data center. Altern
 
 ### Related Patterns
 
-[Public Cloud](/public_cloud/)
-[Infrastructure as a Service (IaaS)](/infrastructure_as_a_service/), [Platform as a Service (PaaS)](/platform_as_a_service/), [Software as a Service (SaaS)](/software_as_a_service/), [Batch Processing Component](/batch_processing_component/), [Cloud Offerings](/#cloud_offerings), [Cloud Application Architectures](/#cloud_application_architectures)
+[Public Cloud](/public_cloud/), [Infrastructure as a Service (IaaS)](/infrastructure_as_a_service/), [Platform as a Service (PaaS)](/platform_as_a_service/), [Software as a Service (SaaS)](/software_as_a_service/), [Batch Processing Component](/batch_processing_component/), [Cloud Offerings](/#cloud_offerings), [Cloud Application Architectures](/#cloud_application_architectures)
