@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: TITEL
-permalink: /PERMALINK/
+permalink: /hybrid_development_environment/
 redirect_from: /MEDIAWIKINAME.html
 ---
 
@@ -10,7 +10,7 @@ INTENT
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/XXX_icon.png" | prepend: site.baseurl }})  | *Question?*
+![TITEL]({{ "/icons/hybrid_development_environment_icon.png" | prepend: site.baseurl }})  | *Question?*
 
 ### Context
 
@@ -20,7 +20,7 @@ Context.
 
 Solution.
  
-![TITEL]({{ "/sketches/XXX_sketch.png" | prepend: site.baseurl }})
+![TITEL]({{ "/sketches/hybrid_development_environment_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
 [Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)

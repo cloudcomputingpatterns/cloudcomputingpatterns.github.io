@@ -23,5 +23,5 @@ From a customer perspective the cost-saving potential in scope of Periodic Workl
 ![Periodic Workload]({{ "/sketches/periodic_workload_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Elasicity Manager](elasticity_manager)
+[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Elasicity Manager](/elasticity_manager/)
 
