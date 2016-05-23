@@ -1,26 +1,24 @@
 ---
 layout: docs
-title: TITEL
+title: At-least-once Delivery
 permalink: /at_least_once_delivery/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /At-least-once_Delivery.html
 ---
 
 {: .patternintent}
-INTENT
+In case of failures that lead to message loss or take too long to recover from, messages are retransmitted to assure they are delivered at least once.
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/at_least_once_delivery_icon.png" | prepend: site.baseurl }})  | *Question?*
+![At-least-once Delivery]({{ "/icons/at_least_once_delivery_icon.png" | prepend: site.baseurl }})  | *Question?*
 
 ### Context
-
-Context.
+Sometimes, message duplicity can be coped with by the application using a [Message-oriented Middleware](/message_oriented_middleware/). Therefore, for scenarios where message duplicates are uncritical, it shall still be ensured that messages are received.
 
 ### Solution
-
-Solution.
+For each message retrieved by a receiver an acknowledgement is sent back to the message sender. In case this acknowledgement is not received after a certain time frame, the message is resend.
  
-![TITEL]({{ "/sketches/at_least_once_delivery_sketch.png" | prepend: site.baseurl }})
+![At-least-once Delivery]({{ "/sketches/at_least_once_delivery_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)
+[[Idempotent Processor](/[idempotent_processor/), [Timeout-based Delivery](/timeout_based_delivery/)

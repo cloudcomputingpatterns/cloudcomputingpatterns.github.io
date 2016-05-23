@@ -1,26 +1,24 @@
 ---
 layout: docs
-title: TITEL
+title: Eventual Consistency
 permalink: /eventual_consistency/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /Eventual_Consistency.html
 ---
 
 {: .patternintent}
-INTENT
+If data is stored at different locations (replicas) to improve response time and avoid data loss in case of failures. Performance and the availability of data in case of network partitioning are enabled by ensuring data consistency eventually and not at all times.
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/eventual_consistency_icon.png" | prepend: site.baseurl }})  | *Question?*
+![Eventual Consistency]({{ "/icons/eventual_consistency_icon.png" | prepend: site.baseurl }})  | *How can data be distributed among replicas with focus on increased availability and performance, while being resilient towards connectivity problems?*
 
 ### Context
-
-Context.
+Using multiple replicas of data is vital to ensure resiliency of a storage offering towards resource failures. Keeping all these replicas in a consistent state, however, requires a significant overhead as multiple or all data replicas have to be accessed during read and write operations.
 
 ### Solution
-
-Solution.
+The consistency of data is relaxed. This reduces the number of replicas that have to be accessed during read and write operations. Data alterations are eventually transferred to all replicas by propagating them asynchronously over the connection network.
  
-![TITEL]({{ "/sketches/eventual_consistency_sketch.png" | prepend: site.baseurl }})
+![Eventual Consistency]({{ "/sketches/eventual_consistency_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)
+[Block Storage](/block_storage/), [Blob Storage](/blob_storage/), [Relational Database](/relational_database/), [Key-Value Storage](/key_value_storage/)

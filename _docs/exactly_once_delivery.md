@@ -1,26 +1,24 @@
 ---
 layout: docs
-title: TITEL
+title: Exactly-once Delivery
 permalink: /exactly_once_delivery/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /Exactly-once_Delivery.html
 ---
 
 {: .patternintent}
-INTENT
+For many critical systems duplicate messages are inacceptable. The messaging system ensures that each message is delivered exactly once by filtering possible message duplicates automatically.
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/exactly_once_delivery_icon.png" | prepend: site.baseurl }})  | *Question?*
+![Exactly-once Delivery]({{ "/icons/exactly_once_delivery_icon.png" | prepend: site.baseurl }})  | *How can it be assured that a message is delivered only exactly once to a receiver?*
 
 ### Context
-
-Context.
+Message duplicity is a very critical design issue for [Distributed Applications](/distributed_application/) and or application components that exchange messages via a [Message-oriented Middleware](/message_oriented_middleware/).
 
 ### Solution
-
-Solution.
+Upon creation, each message is associated with a unique message identifier. This identifier is used to filter message duplicates during their traversal from sender to receiver.
  
-![TITEL]({{ "/sketches/exactly_once_delivery_sketch.png" | prepend: site.baseurl }})
+![Exactly-once Delivery]({{ "/sketches/exactly_once_delivery_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)
+[Message-oriented Middleware](/message_oriented_middleware/), [Transaction-based Delivery](/transaction_based_delivery/)

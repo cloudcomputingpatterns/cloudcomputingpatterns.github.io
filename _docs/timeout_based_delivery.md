@@ -1,26 +1,24 @@
 ---
 layout: docs
-title: TITEL
+title: Timeout-based Delivery
 permalink: /timeout_based_delivery/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /Timeout-based_Delivery.html
 ---
 
 {: .patternintent}
-INTENT
+Clients acknowledge message receptions to ensure that messages are received properly.
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/timeout_based_delivery_icon.png" | prepend: site.baseurl }})  | *Question?*
+![Timeout-based Delivery]({{ "/icons/timeout_based_delivery_icon.png" | prepend: site.baseurl }})  | *How can it be ensured that messages are only deleted from a message queue if they have been received successfully at least once?*
 
 ### Context
-
-Context.
+In addition to ensuring that messages are not lost while they are traversing a [Message-oriented Middleware](/message_oriented_middleware/) it may, thus, also be required to assure that they are actually received by a client before they are deleted from a message queue.
 
 ### Solution
-
-Solution.
+To assure that a message is properly received, it is not deleted immediately after it has been read by a client, but is only marked as being invisible. In this state a message may not be read by another client. After a client has successfully read a message, it sends an acknowledgement to the message queue upon which reception the message is deleted.
  
-![TITEL]({{ "/sketches/timeout_based_delivery_sketch.png" | prepend: site.baseurl }})
+![Timeout-based Delivery]({{ "/sketches/timeout_based_delivery_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)
+[Timeout-based Message Processor](/timeout_based_message_processor/)
