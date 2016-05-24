@@ -16,7 +16,7 @@ Presentation and business logic is bundled to one stateless tier that is easy to
 A [Distributed Application](/distributed_application/) is decomposed into application components to scale individual application functions independently. In this scope, data handling functionality is significantly harder to scale than [Stateless Components](/stateless_components/), because [Stateful Components](/stateful_components/) have to coordinate state information between instances. Therefore, the application shall be decomposed in a fashion that separates the easy-to-scale functionality from the hard-to-scale functionality.
 
 ### Solution
-Application functionality is decomposed into data handling functionality, provided by one or several [Storage Offerings](/#cloud_offerings), and application components handling presentation and business logic. This separation enables the two tiers to elastically scale independently with their workloads.
+Application functionality is decomposed into data handling functionality, provided by one or several [Storage Offerings](/cloud_offerings/#storage_offerings), and application components handling presentation and business logic. This separation enables the two tiers to elastically scale independently with their workloads.
  
 ![Two-Tier Cloud Application]({{ "/sketches/two_tier_cloud_application_sketch.png" | prepend: site.baseurl }})
 

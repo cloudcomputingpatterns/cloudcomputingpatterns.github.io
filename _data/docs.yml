@@ -3,6 +3,8 @@
   - static_workload
   - periodic_workload
   - once_in_a_lifetime_workload
+  - unpredictable_workload
+  - continuously_changing_workload 
   - infrastructure_as_a_service
   - platform_as_a_service
   - software_as_a_service

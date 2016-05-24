@@ -9,6 +9,14 @@
     {% assign patterntest = true %}
   {% endif %}
 
+  {% for section in site.data.docs %}
+  {% assign section_url = section.title | downcase | replace: ' ','_'  | prepend:"/" | append:"/" %}
+      {% if section_url == page.url %}
+        {% assign patterntest = true %}
+      {% endif %}  
+  {% endfor %}
+
+
   <li class="{% if patterntest == true %}current{% endif %}">
     <a href="/">Pat<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">terns</span></a>
   </li>

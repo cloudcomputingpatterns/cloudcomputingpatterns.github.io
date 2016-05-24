@@ -1,0 +1,34 @@
+- title: Cloud Environments
+- description: Patterns of this category descibe the hosting environments of cloud in detail and refer to other offerings composed to form these environments. 
+  docs:
+  - elastic_infrastructure
+  - elastic_platform
+  - node_based_availability
+  - environment_based_availability
+
+- title: Processing Offerings
+- description: Patterns of this category describe how computation can be performed in the cloud. 
+  docs:
+  - hypervisor
+  - execution_environment
+  - map_reduce
+
+- title: Storage Offerings
+- description: Patterns of this category describe how data can be stored in the cloud. 
+  docs:
+  - block_storage
+  - blob_storage
+  - relational_database
+  - key_value_storage
+  - strict_consistency
+  - eventual_consistency
+
+- title: Communication Offerings
+- description: Patterns of this category describe how data can be exchanged in the cloud. 
+  docs:
+  - virtual_networking
+  - message_oriented_middleware
+  - exactly_once_delivery
+  - at_least_once_delivery
+  - transaction_based_delivery
+  - timeout_based_delivery

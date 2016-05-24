@@ -11,7 +11,12 @@
             {% include docs_ul.html items=section.docs %}
         {% endif %}
     {% endfor %}
-    
+
+    {% if section_url == page.url %}
+        <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
+        {% include docs_ul.html items=section.docs %}
+    {% endif %}    
+
     {% if page.overview %}
         <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
         {% include docs_ul.html items=section.docs %}

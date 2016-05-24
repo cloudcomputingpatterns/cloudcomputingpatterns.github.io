@@ -16,7 +16,7 @@ Possibly long running processing functionality is handled by separate components
 The processing functionality offered by an application shall be handled by different application component instances that operate independently. Instances of these components have to be added and removed easily to the application as part of scaling operations.
 
 ### Solution
-Processing functionality is split into separate function blocks and assigned to independent Processing Components. Each processing component is scaled out independently and is implemented in a stateless fashion as described in the [Stateless Component](/stateless_component/) pattern. Scaling is handled by an [Elastic Queue](/elastic_queue/). Data required for processing is provided with requests or by [Storage Offerings](/#cloud_offerings/).
+Processing functionality is split into separate function blocks and assigned to independent Processing Components. Each processing component is scaled out independently and is implemented in a stateless fashion as described in the [Stateless Component](/stateless_component/) pattern. Scaling is handled by an [Elastic Queue](/elastic_queue/). Data required for processing is provided with requests or by [Storage Offerings](/cloud_offerings/#storage_offerings).
  
 ![Processing Component]({{ "/sketches/processing_component_sketch.png" | prepend: site.baseurl }})
 

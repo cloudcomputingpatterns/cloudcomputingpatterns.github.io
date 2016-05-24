@@ -1,0 +1,19 @@
+- title: Native Cloud Applications 
+- description: Patterns of this category describe fundamental composite cloud applications. 
+  docs:
+  - two_tier_cloud_application
+  - three_tier_cloud_application
+  - content_distribution_network
+
+- title: Hybrid Cloud Applications
+- description: Patterns of this category describe applications providing concrete functionality as well as the distribution of application components in a Hybrid Cloud setup. 
+  docs:
+  - hybrid_user_interface
+  - hybrid_processing
+  - hybrid_data
+  - hybrid_backup
+  - hybrid_backend
+  - hybrid_application_functions
+  - hybrid_multimedia_web_application
+  - hybrid_development_environment
+

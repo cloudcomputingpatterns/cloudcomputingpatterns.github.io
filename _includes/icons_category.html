@@ -1,0 +1,19 @@
+{% assign items = include.items %}
+
+{% for section in items %}
+ <h2 id="{{ section.title | downcase | replace: ' ','_' }}">{{ section.title }}</h2>
+ {{ section.description }}
+{% for item in section.docs %}
+  {% assign item_url = item | prepend:"/" | append:"/" %}
+  {% assign icon_url = item | prepend:"/icons/" | append:"_icon.png" %}
+
+  {% assign p = site.docs | where:"url",item_url | first %}
+
+<div class="patterngallery">
+    <a href="{{ site.url }}{{ p.url }}">
+        <img src="{{ icon_url | prepend: site.baseurl }}"/>
+    </a>
+    <span><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></span>
+</div>
+{% endfor %}
+{% endfor %}

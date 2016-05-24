@@ -1,0 +1,18 @@
+- title: Management Components
+- description: Patterns of this category describe how management functionality can be integrated with components providing application functionality. 
+  docs:
+  - provider_adapter
+  - managed_configuration
+  - elasticity_manager
+  - elastic_load_balancer
+  - elastic_queue
+  - watchdog
+
+- title: Management Processes
+- description: Patterns of this category describe how distributed and componentized cloud applications may address runtime challenges, such as elasticity and failure handling in an automated fashion. 
+  docs:
+  - elasticity_management_process
+  - feature_flag_management_process
+  - update_transition_process
+  - standby_pooling_process
+  - resiliency_management_process

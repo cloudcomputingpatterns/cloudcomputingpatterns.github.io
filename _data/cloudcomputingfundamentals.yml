@@ -1,0 +1,23 @@
+- title: Application Workloads
+- description: Patterns of this category describe workload experienced by applications. Workload measured in the form of application utilization, for example, the number of requests, server load etc. For each workload pattern it is discussed furthermore how an application experiencing this workload can benefit from cloud computing. 
+  docs:
+  - static_workload
+  - periodic_workload
+  - once_in_a_lifetime_workload
+  - unpredictable_workload
+  - continuously_changing_workload 
+
+- title: Cloud Service Models
+- description: Patterns of this category describe different cloud types and how providers host the infrastructure to host them. 
+  docs:
+  - infrastructure_as_a_service
+  - platform_as_a_service
+  - software_as_a_service
+
+- title: Cloud Deployment Models
+- description: Patterns of this category compare and categorize different Cloud Service Models according to the layers of the application stack for which they provide IT resources. 
+  docs:
+  - public_cloud
+  - private_cloud
+  - community_cloud
+  - hybrid_cloud 

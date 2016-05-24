@@ -1,0 +1,36 @@
+- title: Fundamental Cloud Architectures
+- description: Patterns of this category cover the fundamental architectural styles that architects and developers have to be aware of when building a cloud-native application. 
+  docs:
+  - loose_coupling
+  - distributed_application
+
+- title: Cloud Application Components
+- description: Patterns of this category refine how functionality of a cloud application can be implemented in seperate components. 
+  docs:
+  - stateful_component
+  - stateless_component
+  - user_interface_component
+  - processing_component
+  - batch_processing_component
+  - data_access_component
+  - data_abstractor
+  - idempotent_processor
+  - transaction_based_processor
+  - timeout_based_message_processor
+  - multi_component_image
+
+- title: Multi-Tenancy
+- description: Patterns of this category describe how cloud application can be shared between different customers if the application itself is offered as a service. 
+  docs:
+  - shared_component
+  - tenant_isolated_component
+  - dedicated_component
+
+- title: Cloud Integration
+- description: Patterns of this category describe how applications distributed among multiple hosting environments can be integrated to provide a holistic user experience. This is especially relevant in a Hybrid Cloud. 
+  docs:
+  - restricted_data_access_component
+  - message_mover
+  - application_component_proxy
+  - compliant_data_replication
+  - integration_provider
