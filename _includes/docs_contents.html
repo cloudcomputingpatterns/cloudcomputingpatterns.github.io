@@ -1,8 +1,21 @@
 <div class="unit one-fifth hide-on-mobiles">
   <aside>
     {% for section in site.data.docs %}
-    <h4>{{ section.title }}</h4>
-    {% include docs_ul.html items=section.docs %}
+    <!--Only display the current section in the side nav.-->
+    <!--But display all sections on the overview page.-->
+    {% assign section_url = section.title | downcase | replace: ' ','_'  | prepend:"/" | append:"/" %}
+    {% for item in section.docs %}
+        {% assign item_url = item | prepend:"/" | append:"/" %}
+        {% if item_url == page.url %}
+            <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
+            {% include docs_ul.html items=section.docs %}
+        {% endif %}
+    {% endfor %}
+    
+    {% if page.overview %}
+        <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
+        {% include docs_ul.html items=section.docs %}
+    {% endif %}
     {% endfor %}
   </aside>
 </div>

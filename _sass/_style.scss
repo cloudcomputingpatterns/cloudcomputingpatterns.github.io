@@ -433,6 +433,11 @@ aside {
     margin-left: -30px;
     display: inline-block;
     border-bottom: 1px solid #00617F;
+    
+    a {
+      color: #00617F;
+      text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    }
   }
 
   ul {
