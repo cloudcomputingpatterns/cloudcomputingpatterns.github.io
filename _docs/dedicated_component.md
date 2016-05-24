@@ -1,26 +1,24 @@
 ---
 layout: docs
-title: TITEL
+title: Dedicated Component
 permalink: /dedicated_component/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /Dedicated_Component.html
 ---
 
 {: .patternintent}
-INTENT
+Components providing critical functionality shall be provided exclusively to tenants while still allowing other components to be shared between tenants.
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/dedicated_component_icon.png" | prepend: site.baseurl }})  | *Question?*
+![Dedicated Component]({{ "/icons/dedicated_component_icon.png" | prepend: site.baseurl }})  | *How can application components that cannot be shared be integrated into a multi-tenant application?*
 
 ### Context
-
-Context.
+A [Distributed Application](/distributed_application/) is offered to multiple tenants. These tenants share IT resources required by applications provided to them.
 
 ### Solution
-
-Solution.
+Dedicated application components are provided exclusively for each tenant using the application.
  
-![TITEL]({{ "/sketches/dedicated_component_sketch.png" | prepend: site.baseurl }})
+![Dedicated Component]({{ "/sketches/dedicated_component_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)
+[Shared Component](/shared_component/), [Tenant-isolated Component](/tenant_isolated_component/)

@@ -10,7 +10,7 @@ Providers share IT resources providing human-usable application software between
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/software_as_a_service_icon.png" | prepend: site.baseurl }})  | *How can customers share a provider-supplied software application so that it can be used on-demand with a pay-per-use pricing model?*
+![Software as a Service (SaaS)]({{ "/icons/software_as_a_service_icon.png" | prepend: site.baseurl }})  | *How can customers share a provider-supplied software application so that it can be used on-demand with a pay-per-use pricing model?*
 
 ### Context
 
@@ -20,7 +20,7 @@ Small and medium enterprises may not have the manpower and know-how to develop c
 
 A provider offers a complete software application to customers who may use it on-demand via a self-service interface.
  
-![TITEL]({{ "/sketches/software_as_a_service_sketch.png" | prepend: site.baseurl }})
+![Software as a Service (SaaS)]({{ "/sketches/software_as_a_service_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
 [Distributed Application](/distributed_application/), [Stateful Component](/stateful_component/), [Data Access Component](/data_access_component/), [Shared Component](/shared_component/), [Tenant-isolated Component](/tenant_isolated_component/), [Dedicated Component](/dedicated_component/)

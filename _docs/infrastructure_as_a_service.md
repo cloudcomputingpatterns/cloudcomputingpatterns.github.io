@@ -20,7 +20,7 @@ In the scope of [Periodic Workloads](/peridodic_workload) with reoccurring peaks
 
 A provider offers physical and virtual hardware, such as servers, storage and networking infrastructure that can be provisioned and decommissioned quickly through a self-service interface. 
  
-![TITEL]({{ "/sketches/infrastructure_as_a_service_sketch.png" | prepend: site.baseurl }})
+![Infrastructure as a Service (IaaS)]({{ "/sketches/infrastructure_as_a_service_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
 [Elastic Infrastructure](/elastic_infrastructure/), [Hypervisor](/hypervisor/), [Block Storage](/block_storage/), [Virtual Networking](/virtual_networking/)

@@ -1,26 +1,24 @@
 ---
 layout: docs
-title: TITEL
+title: Elasticity Management Process
 permalink: /elasticity_management_process/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /Elasticity_Management_Process.html
 ---
 
 {: .patternintent}
-INTENT
+Application component instances are added automatically to an application to cope with increasing workload. If the workload decreases application component instances are removed respectively.
 
 {: .patternstart}
 ------------- | -------------
-![TITEL]({{ "/icons/elasticity_management_process_icon.png" | prepend: site.baseurl }})  | *Question?*
+![Elasticity Management Process]({{ "/icons/elasticity_management_process_icon.png" | prepend: site.baseurl }})  | *How can the number of resources to which application components are scaled-out be adjusted efficiently to the currently experienced workload and anticipated future workload?*
 
 ### Context
-
-Context.
+A [Distributed Application](/distributed_application/) uses [Elasticity Managers](/elasticity_manager/), [Elastic Queues](/elastic_queue/), or [Elastic Load Balancers](/elastic_load_balancer/) to ensure an elastic scaling of application components. To handle this task adequately, the current resource demand has to be obtained automatically from the application and has to be reflected in provisioning and decommissioning of cloud resources.
 
 ### Solution
-
-Solution.
+An Elasticity Management Process analyzes the utilization of application component instances in intervals, when a system manager requests it, or if certain conditions are observed by the monitoring component. Based on this information, the current workload of the application is computed and reflected by adjusting used resources.
  
-![TITEL]({{ "/sketches/elasticity_management_process_sketch.png" | prepend: site.baseurl }})
+![Elasticity Management Process]({{ "/sketches/elasticity_management_process_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Hybrid Cloud](/hybrid_cloud/), [Community Cloud](/community_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Watchdog](/watchdog/), [Update Transition Process](/update_transition_process/)
+[Standby Pooling Process](/standby_pooling_process/), [Feature Flag Management Process](/feature_flag_management_process/), [Update Transition Process](/update_transition_process/), [Elastic Infrastructure](/elastic_infrastructure/), [Elastic Platform](/elastic_platform/), [Stateless Component](/stateless_component/)
