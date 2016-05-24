@@ -6,10 +6,11 @@
 
   {% assign p = site.docs | where:"url",item_url | first %}
 
-<span class="patternicon">
-![item]({{ icon_url | prepend: site.baseurl }})
-<a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a>
-</span>
+<div class="patterngallery">
+    <a href="{{ site.url }}{{ p.url }}">
+        <img src="{{ icon_url | prepend: site.baseurl }}"/>
+    </a>
+    <span><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></span>
+</div>
 {% endfor %}
-<div class="afterpatternicon"></div>
 {% endfor %}

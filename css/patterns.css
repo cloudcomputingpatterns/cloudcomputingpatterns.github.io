@@ -1,20 +1,19 @@
-span.patternicon {
-    float: left; 
+div.patterngallery {
+    vertical-align: top;
     display: inline-block;
-    width: 90px;
-    margin: 0px 0px 10px 0px;
-    padding: 0px 10px 3px 0px;
     text-align: center;
+    width: 100px;
+}
+
+.patterngallery img {
+    width: 90px;
+    height: 90px;
+}
+
+.patterngallery span {
+    display: block;
+    margin: 0px 0px 20px 0px;
     font-size: 16px;
-    line-height: 100%;
-}
-
-.patternicon img {
-    margin: 0px 0px 3px 0px;
-}
-
-div.afterpatternicon{
-   clear: left;
 }
 
 div.bookhomepage {
