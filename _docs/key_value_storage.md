@@ -10,9 +10,7 @@ Semi-structured or unstructured data is stored with limited querying support but
 
 {: .patternstart}
 ------------- | -------------
-![Key-Value Storage]({{ "/icons/key_value_storage_icon.png" | prepend: site.baseurl }})  | *
-Key value storage icon.png
-How can key-value elements be stored to support scale out and an adjustable data structure?
+![Key-Value Storage]({{ "/icons/key_value_storage_icon.png" | prepend: site.baseurl }})  | *How can key-value elements be stored to support scale out and an adjustable data structure?
 *
 
 ### Context
