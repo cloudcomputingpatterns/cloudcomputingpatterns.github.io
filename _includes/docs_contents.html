@@ -1,26 +1,39 @@
 <div class="unit one-fifth hide-on-mobiles">
   <aside>
     {% for section in site.data.docs %}
-    <!--Only display the current section in the side nav.-->
-    <!--But display all sections on the overview page.-->
     {% assign section_url = section.title | downcase | replace: ' ','_'  | prepend:"/" | append:"/" %}
+
+    <!--Always including the section title in side nav.-->
+    <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
+
+    <!--Only display the current section in full the side nav.-->
+    {% assign section_empty = "true" %}
+
+    <!--Testing if the current page is a pattern overview.-->
     {% for item in section.docs %}
         {% assign item_url = item | prepend:"/" | append:"/" %}
-        {% if item_url == page.url %}
-            <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
+        {% if item_url == page.url %} 
             {% include docs_ul.html items=section.docs %}
+            {% assign section_empty = "false" %}
         {% endif %}
     {% endfor %}
 
+    <!--Testing if the current page is section overview.-->
     {% if section_url == page.url %}
-        <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
         {% include docs_ul.html items=section.docs %}
+        {% assign section_empty = "false" %}
     {% endif %}    
 
+    <!--Display all sections on the overview page.-->
     {% if page.overview %}
-        <h4><a href="{{ site.url }}{{ section_url }}">{{ section.title }}</a></h4>
         {% include docs_ul.html items=section.docs %}
+        {% assign section_empty = "false" %}
     {% endif %}
+
+    <!--Adding some space if the section was empty.-->
+    {% if section_empty == "true" %}
+        <p></p>
+    {% endif %}  
     {% endfor %}
   </aside>
 </div>
