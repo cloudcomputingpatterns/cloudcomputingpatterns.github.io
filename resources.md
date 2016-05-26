@@ -31,4 +31,4 @@ License: [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND
 ### Why are there several Licenses?
 We wanted to make the materials as easily reusable as possible while protecting the unique look-and-feel of the pattern documents. Therefore, you only have to attribute the use of the icons. But the provided slides have to be used as is and may not be altered.
 
-Note that these creative commons licences are not open source licenses, therefore, they do not demand that the content you create using the materials provided here have to be made publicly available.
+Note that these creative commons licences are not open source licenses. Therefore, they do not demand that the content created by you has to be made publicly available.
