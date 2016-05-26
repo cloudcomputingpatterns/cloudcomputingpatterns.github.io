@@ -8,9 +8,7 @@ As this site is hosted by a person residing in Germany the following legal detai
 
 Angaben gemäß § 5 TMG:
 
-Christoph Fehling
-Hasenbergstaffel 1
-70197 Stuttgart
+Christoph Fehling, Hasenbergstaffel 1, 70197 Stuttgart
 
 ### Kontakt
 Telefon: +491705835456
