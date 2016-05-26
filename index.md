@@ -20,12 +20,12 @@ Patterns are a widely used concept in computer science to describe good solution
   var s = document.location.search.toString();
   if (s == "?page_id=17") {window.location.replace("/impressum/");}
   if (s == "?page_id=29") {window.location.replace("/cloud_computing_fundamentals/");}
-  if (s == "?page_id=32") {window.location.replace("/cloud_service_models/");}
+  if (s == "?page_id=32") {window.location.replace("/cloud_computing_fundamentals/#cloud_service_models");}
   if (s == "?page_id=45") {window.location.replace("/infrastructure_as_a_service/");}
   if (s == "?page_id=64") {window.location.replace("/platform_as_a_service/");}
   if (s == "?page_id=71") {window.location.replace("/software_as_a_service/");}
   if (s == "?page_id=86") {window.location.replace("/");}
-  if (s == "?old = page_id=38") {window.location.replace("/cloud_computing_fundamentals/#cloud_deployment_models");}
+  if (s == "?page_id=38") {window.location.replace("/cloud_computing_fundamentals/#cloud_deployment_models");}
   if (s == "?page_id=90") {window.location.replace("/public_cloud/");}
   if (s == "?page_id=95") {window.location.replace("/private_cloud/");}
   if (s == "?page_id=101") {window.location.replace("/community_cloud/");}
@@ -61,7 +61,7 @@ Patterns are a widely used concept in computer science to describe good solution
   if (s == "?page_id=221") {window.location.replace("/cloud_application_management/#management_processes");}
   if (s == "?page_id=278") {window.location.replace("/watchdog/");}
   if (s == "?page_id=284") {window.location.replace("/update_transition_process/");}
-  if (s == "?page_id=223") {window.location.replace("/cloud_application_architectures/#multi_tenancy/");}
+  if (s == "?page_id=223") {window.location.replace("/cloud_application_architectures/#multi-tenancy");}
   if (s == "?page_id=291") {window.location.replace("/shared_component/");}
   if (s == "?page_id=295") {window.location.replace("/tenant_isolated_component/");}
   if (s == "?page_id=299") {window.location.replace("/dedicated_component/");}
