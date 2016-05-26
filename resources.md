@@ -3,7 +3,7 @@ layout: docs
 title: Resources
 permalink: /resources/
 ---
-Spread the word and reuse the following materials in your own patterns. Also, drop us a line about how you used the patterns: <info@cloudcomputingpatterns.org>
+Spread the word and reuse the following materials in your own patterns. Also, drop us a line about how you used the projects: <info@cloudcomputingpatterns.org>
 
 ### Overview Posters
 For easier reference to all patterns and a nice decoration in your office:

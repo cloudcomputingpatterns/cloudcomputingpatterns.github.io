@@ -18,7 +18,9 @@ Even though application component instances may be provisioned and decommissione
 ### Solution
 Instead of decommissioning application component instances instantly when they are unused, they are assigned to a standby list They are decommissioned only when the time-slot they have been paid for has been utilized and they are still not needed. The standby list may always contain a certain number of component instances to ensure timely provisioning.
  
-![Standby Pooling Process]({{ "/sketches/standby_pooling_process_sketch.png" | prepend: site.baseurl }})
+![Standby Pooling Process]({{ "/sketches/standby_pooling_process_sketch_1.png" | prepend: site.baseurl }})
+
+![Standby Pooling Process]({{ "/sketches/standby_pooling_process_sketch_2.png" | prepend: site.baseurl }})
 
 ### Related Patterns
 [Multi-Component Image](/multi_component_image/), [Resiliency Management Process](/resiliency_management_process/), [Feature Flag Management Process](/feature_flag_management_process/)
