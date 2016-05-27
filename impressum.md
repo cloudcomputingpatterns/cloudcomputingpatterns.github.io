@@ -2,6 +2,7 @@
 layout: docs
 title: Impressum
 permalink: /impressum/
+redirect_from: /Impressum.html
 ---
 
 As this site is hosted by a person residing in Germany the following legal details are given in German.
