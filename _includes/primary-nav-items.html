@@ -18,7 +18,7 @@
 
 
   <li class="{% if patterntest == true %}current{% endif %}">
-    <a href="/">Pat<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">terns</span></a>
+    <a href="/">Patterns</a>
   </li>
   {% assign booktest = false %}
   {% if page.url contains '/book/' %} {% assign booktest = true %} {% endif %}
@@ -28,8 +28,15 @@
   {% assign resourcestest = false %}
   {% if page.url contains '/resources/'	%} {% assign resourcestest = true %} {% endif %}
   <li class="{% if resourcestest == true %}current{% endif %}">
-    <a href="/resources/">Res<span class="hide-on-mobiles">ources</span></a>
+    <a href="/resources/">Resources</a>
   </li>
+<!-- Enable again once the bibtex page is ready. 
+ {% assign bibtextest = false %}
+  {% if page.url contains '/bibtex/' %} {% assign bibtextest = true %} {% endif %}
+  <li class="{% if bibtextest == true %}current{% endif %}">
+    <a href="/bibtex/">BibTex</a>
+  </li>
+-->
 <!-- Removing Library Link for now. Should be used in the future to point to other interesting books and papers.
   {% assign librarytest = false %}
   {% if page.url contains '/library/'	%} {% assign librarytest = true %} {% endif %}
