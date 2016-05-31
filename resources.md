@@ -14,17 +14,17 @@ For easier reference to all patterns and a nice decoration in your office:
 ### Icons of Patterns for Reuse
 The icons of the patterns are provided in three formats:
 
-- [Portable Network Graphics (PNG)](/resources/icons_png.zip)
-- [Visio Stencil Sets](/resources/icons_visio.zip)
-- [Powerpoint Slides](/resources/icons_powerpoint.ppt)
+- [Portable Network Graphics (PNG)](/resources/cloudcomputingpatterns_icons_png.zip)
+- [Visio Stencil Sets](/resources/cloudcomputingpatterns_icons_vsd.zip)
+- [Powerpoint Slides](/resources/cloudcomputingpatterns_icons_ppt.zip)
 
 License: [Creative Commons Attribution 4.0 International (CC BY 4.0)↗](http://creativecommons.org/licenses/by/4.0/)
 
 ### Slide Decks
 Give a quick intro to the patterns using the following slides. Or use individual slides in your own presentations.
 
-- [Complete Slide Deck](slidedeck_complete.pdf) including slide numbers.
-- [Individual Slides](slides_individual.zip) as separate files.
+- [Complete Slide Deck](/resources/cloudcomputingpatterns_slidedeck_complete.zip) including slide numbers.
+- [Individual Slides](/resources/cloudcomputingpatterns_slidedeck_individual.zip) as separate files.
 
 License: [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)↗](http://creativecommons.org/licenses/by-nd/4.0/) &#8212; you may add  slide numbers to the individual slides if they are included in your own presentations.
 
