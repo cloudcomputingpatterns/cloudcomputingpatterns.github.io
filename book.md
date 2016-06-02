@@ -13,4 +13,4 @@ We employ patterns to describe cloud service models and cloud deplyoment types i
 
 Access the full information at [Springer.com&#x2197;](http://www.springer.com/978-3-7091-1567-1), download a [sample chapter&#x2197;](http://www.springer.com/cda/content/document/cda_downloaddocument/9783709115671-c2.pdf?SGWID=0-0-45-1443612-p174949176), or read the book on [SpringerLink&#x2197;](http://link.springer.com/book/10.1007%2F978-3-7091-1568-8).
 
-
+[Citations](/citations/) provides information how to cite the book in scientific publications.
