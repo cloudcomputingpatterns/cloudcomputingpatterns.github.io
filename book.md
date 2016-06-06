@@ -18,10 +18,11 @@ All content on this website is contained in the Cloud Computing Patterns book, w
  
 *Christoph Fehling, Frank Leymann, Ralph Retter, Walter Schupeck, and Peter Arbitter. Cloud Computing Patterns. Springer, 2014.*
 
-`@BOOK {FLRSA2014,
-author    = "Fehling, Christoph and Leymann, Frank and Retter , Ralph and Schupeck, Walter and Arbitter, Peter",
-title     = "Cloud Computing Patterns: Fundamentals to Design, Build, and Manage Cloud Applications",
-publisher = "Springer",
-year      = "2014"
+`@Book{CloudComputingPatterns2014,
+  author    = "Fehling, Christoph and Leymann, Frank and Retter, Ralph and Schupeck, Walter and Arbitter, Peter",
+  title     = "Cloud Computing Patterns: Fundamentals to Design, Build, and Manage Cloud Applications",
+  publisher = "Springer",
+  year      = "2014",
+  doi       = "10.1007/978-3-7091-1568-8"
 }`
 
