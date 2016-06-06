@@ -33,7 +33,7 @@ Give a quick intro to the patterns using the following slides. Or use individual
 
 License: [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)↗](http://creativecommons.org/licenses/by-nd/4.0/) &#8212; you may add  slide numbers to the individual slides if they are included in your own presentations.
 
-### Why are there several Licenses?
+### Why are there several licenses?
 We wanted to make the materials as easily reusable as possible while protecting the unique look-and-feel of the pattern documents. Therefore, you only have to attribute the use of the icons. But the provided slides have to be used as is and may not be altered.
 
 Note that these creative commons licences are not open source licenses. Therefore, they do not demand that the content created by you has to be made publicly available.
