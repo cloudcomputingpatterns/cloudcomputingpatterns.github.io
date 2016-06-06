@@ -19,6 +19,11 @@ The icons of the patterns are provided in three formats:
 - [Powerpoint Slides](/resources/cloudcomputingpatterns_icons_ppt.zip)
 
 License: [Creative Commons Attribution 4.0 International (CC BY 4.0)↗](http://creativecommons.org/licenses/by/4.0/)
+If you use these icons in your own works, please give appropriate credit. For example, in a footnote:
+
+<img src="/img/cc-by.png" alt="CC-BY"> http://www.cloudcomputingpatterns.org
+
+CC-BY: http://www.cloudcomputingpatterns.org 
 
 ### Slide Decks
 Give a quick intro to the patterns using the following slides. Or use individual slides in your own presentations.

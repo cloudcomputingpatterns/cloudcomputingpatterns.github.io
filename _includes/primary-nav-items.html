@@ -30,11 +30,6 @@
   <li class="{% if resourcestest == true %}current{% endif %}">
     <a href="/resources/">Resources</a>
   </li>
- {% assign citationstest = false %}
-  {% if page.url contains '/citations/' %} {% assign citationstest = true %} {% endif %}
-  <li class="{% if citationstest == true %}current{% endif %}">
-    <a href="/citations/">Cit<span class="show-on-mobiles">es</span><span class="hide-on-mobiles">ations</span></a>
-  </li>
 <!-- Removing Library Link for now. Should be used in the future to point to other interesting books and papers.
   {% assign librarytest = false %}
   {% if page.url contains '/library/'	%} {% assign librarytest = true %} {% endif %}
