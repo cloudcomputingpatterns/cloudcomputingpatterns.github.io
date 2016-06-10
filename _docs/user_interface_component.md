@@ -2,7 +2,7 @@
 layout: docs
 title: User Interface Component
 permalink: /user_interface_component/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /User_Interface_Component.html
 ---
 
 {: .patternintent}
