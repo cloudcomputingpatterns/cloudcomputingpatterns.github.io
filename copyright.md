@@ -2,6 +2,7 @@
 layout: docs
 title: Copyright
 permalink: /copyright/
+redirect-from: /Copyright.html
 ---
 
 This website is based on this book: 
