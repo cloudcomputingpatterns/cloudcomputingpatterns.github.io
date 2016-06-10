@@ -2,7 +2,7 @@
 layout: docs
 title: Virtual Networking
 permalink: /virtual_networking/
-redirect_from: /MEDIAWIKINAME.html
+redirect_from: /Virtual_Networking.html
 ---
 
 {: .patternintent}
