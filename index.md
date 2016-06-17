@@ -3,7 +3,7 @@ layout: docs
 title: Cloud Computing Patterns
 overview: true
 permalink: /
-redirect_from: Cloud_Computing_Patterns.html
+redirect_from: /Cloud_Computing_Patterns.html
 ---
 
 <script type="text/javascript">
