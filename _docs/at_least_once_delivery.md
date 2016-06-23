@@ -21,4 +21,4 @@ For each message retrieved by a receiver an acknowledgement is sent back to the 
 ![At-least-once Delivery]({{ "/sketches/at_least_once_delivery_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
-[[Idempotent Processor](/[idempotent_processor/), [Timeout-based Delivery](/timeout_based_delivery/)
+[[Idempotent Processor](/idempotent_processor/), [Timeout-based Delivery](/timeout_based_delivery/)
