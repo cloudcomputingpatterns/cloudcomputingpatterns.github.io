@@ -4,7 +4,7 @@ title: Cloud Computing Patterns' Book
 permalink: /book/
 ---
 
-We employ patterns to describe cloud service models and cloud deplyoment types in an abstract form to categorize the offerings of cloud providers. Furthermore, we give reoccurring cloud application architectural patterns on how to design, build, and manage applications that use these cloud offerings. The abstraction of these patterns make them applicable to challenges faced by developers regardless of the actual technologies and cloud services that they are using. 
+We employ patterns to describe cloud service models and cloud deployment types in an abstract form to categorize the offerings of cloud providers. Furthermore, we give reoccurring cloud application architectural patterns on how to design, build, and manage applications that use these cloud offerings. The abstraction of these patterns make them applicable to challenges faced by developers regardless of the actual technologies and cloud services that they are using. 
 
 <div class="bookhomepage" markdown="1">
 ![Springer Book Cover]({{ "/img/book.png" | prepend: site.baseurl }})
