@@ -18,7 +18,7 @@ Random workloads are a generalization of [Periodic Workloads](/periodic_workload
 ### Solution
 Unplanned provisioning and decommissioning of IT resources is required. The necessary provisioning and decommissioning of IT resources is, therefore, automated to align the resource numbers to changing workload.
  
-![Unpredictable Workload]({{ "/sketches/application_component_proxy_sketch.png" | prepend: site.baseurl }})
+![Unpredictable Workload]({{ "/sketches/unpredictable_workload_sketch.png" | prepend: site.baseurl }})
 
 ### Related Patterns
 [Public Cloud](/public_cloud/), [Private Cloud](/private_cloud/), [Elastic Infrastructure](/elastic_infrastructure/), [Elasticity Manager](/elasticity_manager/), [Feature Flag Management Process](/feature_flag_management_process/)
