@@ -10,7 +10,7 @@ IT resources with a random and unforeseeable utilization over time experience un
 
 {: .patternstart}
 ------------- | -------------
-![Unpredictable Workload]({{ "/icons/application_component_proxy_icon.png" | prepend: site.baseurl }})  | *How can random and unforeseeable utilization be characterized and how can applications experiencing this workload benefit from cloud computing?*
+![Unpredictable Workload]({{ "/icons/unpredictable_workload_icon.png" | prepend: site.baseurl }})  | *How can random and unforeseeable utilization be characterized and how can applications experiencing this workload benefit from cloud computing?*
 
 ### Context
 Random workloads are a generalization of [Periodic Workloads](/periodic_workload/) as they require elasticity but are not predictable. Such workloads occur quite often in the real world.
