@@ -20,9 +20,11 @@ You can preview changes  by running from within the directory:
 If you use AWS cloud9, you can run this project:
 
 1. `bundle install`
-2. `bundle exec jekyll serve`
+2. `bundle exec jekyll serve --host $IP --port $PORT`
 3. Note the hostname of the cloud9 server on which the site is served.
 4. Add this hostname to `_config_c9.yml`.
 5. Stop the jekyll server by pressing `Ctrl-C` in the console.
 6. `export JEKYLL_ENV=cloud9`
-7. `bundle exec jekyll serve --host $IP --port $PORT --config _config.yml,_config_c9.yml`
+7. `bundle exec jekyll serve --incremental --host $IP --port $PORT --config _config.yml,_config_c9.yml`
+
+You should add this as a Cloud9 run config.
