@@ -28,3 +28,11 @@ If you use AWS cloud9, you can run this project:
 7. `bundle exec jekyll serve --incremental --host $IP --port $PORT --config _config.yml,_config_c9.yml`
 
 You should add this as a Cloud9 run config.
+
+## Running on Visual Studio Online
+
+If you use VSCode online, you can run this project:
+
+1. `./setupvscode.sh`
+2. `bundle install`
+3. `bundle exec jekyll serve`
